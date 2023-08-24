@@ -12,9 +12,9 @@ public class TransactionTest {
         Wallet wallet = new Wallet(0.0);
         Bank bank = new Bank();
 
-        Income income = new Income("", 0.0, "", wallet);
-        Expense expense = new Expense("", 0.0, "", wallet);
-        EmergencyFund fund = new EmergencyFund("", 0.0, "", bank);
+        Income income = new Income("", 0.0, "2023-08-24T00:00","", wallet);
+        Expense expense = new Expense("", 0.0, "2023-08-24T00:00", "", wallet);
+        EmergencyFund fund = new EmergencyFund("", 0.0, "2023-08-24T00:00",  "", bank);
 
         assertNotNull(income);
         assertNotNull(expense);
